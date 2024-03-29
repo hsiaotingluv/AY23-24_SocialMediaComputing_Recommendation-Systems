@@ -1,0 +1,277 @@
+python3 main.py --lr=0.1 --batch_size=1 --model MF
+------------------------------------------------------
+Highest F1: 0.014681712310755476 at epoch: 0
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 000 is: 00: 01: 39
+[Valid]: Recall: 0.0074 NDCG: 0.0029
+[Valid]: ILD: 0.9798 Item Coverage: 0.7491 Category Coverage: 0.9185 F1: 0.0147
+[Test]: Recall: 0.0074 NDCG: 0.0048 
+[Test]: ILD: 0.9798 Item Coverage: 0.7491 Category Coverage: 0.9185 F1: 0.0147
+------------------------------------------------------
+------------------------------------------------------
+Highest F1: 0.014683759263873893 at epoch: 1
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 001 is: 00: 01: 33
+[Valid]: Recall: 0.0074 NDCG: 0.0043
+[Valid]: ILD: 0.9818 Item Coverage: 0.7628 Category Coverage: 0.9348 F1: 0.0147
+[Test]: Recall: 0.0123 NDCG: 0.0053 
+[Test]: ILD: 0.9818 Item Coverage: 0.7634 Category Coverage: 0.9348 F1: 0.0243
+------------------------------------------------------
+------------------------------------------------------
+Highest F1: 0.014684425928644839 at epoch: 2
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 002 is: 00: 01: 54
+[Valid]: Recall: 0.0074 NDCG: 0.005
+[Valid]: ILD: 0.9759 Item Coverage: 0.7652 Category Coverage: 0.9402 F1: 0.0147
+[Test]: Recall: 0.0197 NDCG: 0.0102 
+[Test]: ILD: 0.9759 Item Coverage: 0.7664 Category Coverage: 0.9402 F1: 0.0386
+------------------------------------------------------
+------------------------------------------------------
+Highest F1: 0.03857267321960691 at epoch: 3
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 003 is: 00: 02: 08
+[Valid]: Recall: 0.0197 NDCG: 0.0072
+[Valid]: ILD: 0.9783 Item Coverage: 0.7431 Category Coverage: 0.9185 F1: 0.0386
+[Test]: Recall: 0.0099 NDCG: 0.0042 
+[Test]: ILD: 0.9781 Item Coverage: 0.7425 Category Coverage: 0.9185 F1: 0.0196
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 004 is: 00: 02: 15
+[Valid]: Recall: 0.0099 NDCG: 0.0052
+[Valid]: ILD: 0.9729 Item Coverage: 0.6906 Category Coverage: 0.9022 F1: 0.0196
+[Test]: Recall: 0.0099 NDCG: 0.0049 
+[Test]: ILD: 0.9729 Item Coverage: 0.6900 Category Coverage: 0.9022 F1: 0.0196
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 005 is: 00: 02: 07
+[Valid]: Recall: 0.0099 NDCG: 0.004
+[Valid]: ILD: 0.9724 Item Coverage: 0.6505 Category Coverage: 0.9049 F1: 0.0196
+[Test]: Recall: 0.0148 NDCG: 0.0077 
+[Test]: ILD: 0.9724 Item Coverage: 0.6511 Category Coverage: 0.9049 F1: 0.0291
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 006 is: 00: 02: 07
+[Valid]: Recall: 0.0123 NDCG: 0.0066
+[Valid]: ILD: 0.9729 Item Coverage: 0.6374 Category Coverage: 0.8886 F1: 0.0243
+[Test]: Recall: 0.0148 NDCG: 0.0084 
+[Test]: ILD: 0.9729 Item Coverage: 0.6386 Category Coverage: 0.8886 F1: 0.0291
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 007 is: 00: 02: 15
+[Valid]: Recall: 0.0123 NDCG: 0.0065
+[Valid]: ILD: 0.9761 Item Coverage: 0.6428 Category Coverage: 0.8777 F1: 0.0243
+[Test]: Recall: 0.0074 NDCG: 0.0035 
+[Test]: ILD: 0.9759 Item Coverage: 0.6422 Category Coverage: 0.8750 F1: 0.0147
+------------------------------------------------------
+------------------------------------------------------
+Highest F1: 0.04329468664982984 at epoch: 8
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 008 is: 00: 02: 06
+[Valid]: Recall: 0.0222 NDCG: 0.0084
+[Valid]: ILD: 0.9719 Item Coverage: 0.6063 Category Coverage: 0.8696 F1: 0.0433
+[Test]: Recall: 0.0049 NDCG: 0.0017 
+[Test]: ILD: 0.9719 Item Coverage: 0.6063 Category Coverage: 0.8668 F1: 0.0097
+------------------------------------------------------
+------------------------------------------------------
+Highest F1: 0.05723931931620273 at epoch: 9
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 009 is: 00: 02: 13
+[Valid]: Recall: 0.0296 NDCG: 0.0156
+[Valid]: ILD: 0.9776 Item Coverage: 0.6016 Category Coverage: 0.8641 F1: 0.0572
+[Test]: Recall: 0.0025 NDCG: 0.0025 
+[Test]: ILD: 0.9776 Item Coverage: 0.6016 Category Coverage: 0.8641 F1: 0.0050
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 010 is: 00: 02: 11
+[Valid]: Recall: 0.0246 NDCG: 0.0121
+[Valid]: ILD: 0.9754 Item Coverage: 0.6063 Category Coverage: 0.8777 F1: 0.0479
+[Test]: Recall: 0.0172 NDCG: 0.0075 
+[Test]: ILD: 0.9754 Item Coverage: 0.6057 Category Coverage: 0.8777 F1: 0.0337
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 011 is: 00: 02: 00
+[Valid]: Recall: 0.0246 NDCG: 0.0095
+[Valid]: ILD: 0.9736 Item Coverage: 0.5938 Category Coverage: 0.8505 F1: 0.0478
+[Test]: Recall: 0.0099 NDCG: 0.0068 
+[Test]: ILD: 0.9736 Item Coverage: 0.5944 Category Coverage: 0.8505 F1: 0.0196
+------------------------------------------------------
+------------------------------------------------------
+Highest F1: 0.057245262703520663 at epoch: 12
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 012 is: 00: 02: 07
+[Valid]: Recall: 0.0296 NDCG: 0.0148
+[Valid]: ILD: 0.9746 Item Coverage: 0.6111 Category Coverage: 0.8668 F1: 0.0572
+[Test]: Recall: 0.0197 NDCG: 0.011 
+[Test]: ILD: 0.9749 Item Coverage: 0.6123 Category Coverage: 0.8668 F1: 0.0385
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 013 is: 00: 02: 01
+[Valid]: Recall: 0.0197 NDCG: 0.0112
+[Valid]: ILD: 0.9717 Item Coverage: 0.5908 Category Coverage: 0.8641 F1: 0.0385
+[Test]: Recall: 0.0148 NDCG: 0.0092 
+[Test]: ILD: 0.9717 Item Coverage: 0.5902 Category Coverage: 0.8641 F1: 0.0291
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 014 is: 00: 02: 12
+[Valid]: Recall: 0.0246 NDCG: 0.0124
+[Valid]: ILD: 0.9714 Item Coverage: 0.5854 Category Coverage: 0.8696 F1: 0.0478
+[Test]: Recall: 0.0197 NDCG: 0.0111 
+[Test]: ILD: 0.9714 Item Coverage: 0.5860 Category Coverage: 0.8696 F1: 0.0385
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 015 is: 00: 01: 56
+[Valid]: Recall: 0.0197 NDCG: 0.0112
+[Valid]: ILD: 0.9690 Item Coverage: 0.5914 Category Coverage: 0.8641 F1: 0.0385
+[Test]: Recall: 0.0172 NDCG: 0.0126 
+[Test]: ILD: 0.9690 Item Coverage: 0.5914 Category Coverage: 0.8641 F1: 0.0337
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 016 is: 00: 01: 58
+[Valid]: Recall: 0.0271 NDCG: 0.0136
+[Valid]: ILD: 0.9734 Item Coverage: 0.6075 Category Coverage: 0.8723 F1: 0.0526
+[Test]: Recall: 0.0172 NDCG: 0.0147 
+[Test]: ILD: 0.9734 Item Coverage: 0.6087 Category Coverage: 0.8723 F1: 0.0337
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 017 is: 00: 02: 13
+[Valid]: Recall: 0.0222 NDCG: 0.0118
+[Valid]: ILD: 0.9764 Item Coverage: 0.6135 Category Coverage: 0.8804 F1: 0.0433
+[Test]: Recall: 0.0222 NDCG: 0.015 
+[Test]: ILD: 0.9761 Item Coverage: 0.6135 Category Coverage: 0.8804 F1: 0.0433
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 018 is: 00: 02: 17
+[Valid]: Recall: 0.0246 NDCG: 0.014
+[Valid]: ILD: 0.9744 Item Coverage: 0.6010 Category Coverage: 0.8913 F1: 0.0479
+[Test]: Recall: 0.0172 NDCG: 0.014 
+[Test]: ILD: 0.9749 Item Coverage: 0.6016 Category Coverage: 0.8913 F1: 0.0337
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 019 is: 00: 02: 30
+[Valid]: Recall: 0.0296 NDCG: 0.0151
+[Valid]: ILD: 0.9773 Item Coverage: 0.6225 Category Coverage: 0.8668 F1: 0.0572
+[Test]: Recall: 0.0172 NDCG: 0.0097 
+[Test]: ILD: 0.9778 Item Coverage: 0.6225 Category Coverage: 0.8668 F1: 0.0337
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 020 is: 00: 02: 22
+[Valid]: Recall: 0.0271 NDCG: 0.0152
+[Valid]: ILD: 0.9744 Item Coverage: 0.5908 Category Coverage: 0.8641 F1: 0.0526
+[Test]: Recall: 0.0197 NDCG: 0.0128 
+[Test]: ILD: 0.9744 Item Coverage: 0.5914 Category Coverage: 0.8641 F1: 0.0385
+------------------------------------------------------
+------------------------------------------------------
+Highest F1: 0.0617283950617284 at epoch: 21
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 021 is: 00: 02: 25
+[Valid]: Recall: 0.032 NDCG: 0.0137
+[Valid]: ILD: 0.9768 Item Coverage: 0.6039 Category Coverage: 0.8696 F1: 0.0617
+[Test]: Recall: 0.0074 NDCG: 0.0074 
+[Test]: ILD: 0.9773 Item Coverage: 0.6039 Category Coverage: 0.8696 F1: 0.0147
+------------------------------------------------------
+------------------------------------------------------
+Highest F1: 0.07075931976289765 at epoch: 22
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 022 is: 00: 02: 05
+[Valid]: Recall: 0.0369 NDCG: 0.0191
+[Valid]: ILD: 0.9766 Item Coverage: 0.6201 Category Coverage: 0.8587 F1: 0.0708
+[Test]: Recall: 0.0049 NDCG: 0.004 
+[Test]: ILD: 0.9764 Item Coverage: 0.6219 Category Coverage: 0.8614 F1: 0.0097
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 023 is: 00: 02: 19
+[Valid]: Recall: 0.032 NDCG: 0.016
+[Valid]: ILD: 0.9732 Item Coverage: 0.6105 Category Coverage: 0.8533 F1: 0.0617
+[Test]: Recall: 0.0172 NDCG: 0.008 
+[Test]: ILD: 0.9729 Item Coverage: 0.6111 Category Coverage: 0.8533 F1: 0.0337
+------------------------------------------------------
+------------------------------------------------------
+Highest F1: 0.07536379034896926 at epoch: 24
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 024 is: 00: 02: 06
+[Valid]: Recall: 0.0394 NDCG: 0.0183
+[Valid]: ILD: 0.9754 Item Coverage: 0.6010 Category Coverage: 0.8641 F1: 0.0754
+[Test]: Recall: 0.0172 NDCG: 0.0079 
+[Test]: ILD: 0.9754 Item Coverage: 0.6027 Category Coverage: 0.8641 F1: 0.0337
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 025 is: 00: 02: 21
+[Valid]: Recall: 0.0369 NDCG: 0.0189
+[Valid]: ILD: 0.9724 Item Coverage: 0.6081 Category Coverage: 0.8641 F1: 0.0708
+[Test]: Recall: 0.0123 NDCG: 0.0079 
+[Test]: ILD: 0.9727 Item Coverage: 0.6099 Category Coverage: 0.8641 F1: 0.0243
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 026 is: 00: 02: 20
+[Valid]: Recall: 0.032 NDCG: 0.0201
+[Valid]: ILD: 0.9759 Item Coverage: 0.5902 Category Coverage: 0.8641 F1: 0.0617
+[Test]: Recall: 0.0123 NDCG: 0.0073 
+[Test]: ILD: 0.9761 Item Coverage: 0.5908 Category Coverage: 0.8641 F1: 0.0243
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 027 is: 00: 02: 31
+[Valid]: Recall: 0.0394 NDCG: 0.0222
+[Valid]: ILD: 0.9768 Item Coverage: 0.6237 Category Coverage: 0.8587 F1: 0.0753
+[Test]: Recall: 0.0099 NDCG: 0.0059 
+[Test]: ILD: 0.9766 Item Coverage: 0.6249 Category Coverage: 0.8587 F1: 0.0196
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 028 is: 00: 02: 23
+[Valid]: Recall: 0.0345 NDCG: 0.0227
+[Valid]: ILD: 0.9712 Item Coverage: 0.6219 Category Coverage: 0.8859 F1: 0.0664
+[Test]: Recall: 0.0099 NDCG: 0.0053 
+[Test]: ILD: 0.9707 Item Coverage: 0.6219 Category Coverage: 0.8859 F1: 0.0196
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 029 is: 00: 02: 18
+[Valid]: Recall: 0.0345 NDCG: 0.0224
+[Valid]: ILD: 0.9744 Item Coverage: 0.6159 Category Coverage: 0.8832 F1: 0.0664
+[Test]: Recall: 0.0099 NDCG: 0.0059 
+[Test]: ILD: 0.9746 Item Coverage: 0.6165 Category Coverage: 0.8832 F1: 0.0196
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 030 is: 00: 02: 13
+[Valid]: Recall: 0.0345 NDCG: 0.0247
+[Valid]: ILD: 0.9729 Item Coverage: 0.6147 Category Coverage: 0.8832 F1: 0.0664
+[Test]: Recall: 0.0123 NDCG: 0.0068 
+[Test]: ILD: 0.9734 Item Coverage: 0.6159 Category Coverage: 0.8859 F1: 0.0243
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 031 is: 00: 02: 09
+[Valid]: Recall: 0.032 NDCG: 0.0257
+[Valid]: ILD: 0.9744 Item Coverage: 0.6189 Category Coverage: 0.8723 F1: 0.0617
+[Test]: Recall: 0.0123 NDCG: 0.0065 
+[Test]: ILD: 0.9744 Item Coverage: 0.6189 Category Coverage: 0.8723 F1: 0.0243
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 032 is: 00: 02: 20
+[Valid]: Recall: 0.0345 NDCG: 0.0219
+[Valid]: ILD: 0.9766 Item Coverage: 0.6290 Category Coverage: 0.8587 F1: 0.0663
+[Test]: Recall: 0.0099 NDCG: 0.0056 
+[Test]: ILD: 0.9768 Item Coverage: 0.6302 Category Coverage: 0.8587 F1: 0.0196
+------------------------------------------------------
+------------------------------------------------------
+The time elapse of epoch 033 is: 00: 02: 09
+[Valid]: Recall: 0.0296 NDCG: 0.019
+[Valid]: ILD: 0.9749 Item Coverage: 0.6332 Category Coverage: 0.8668 F1: 0.0572
+[Test]: Recall: 0.0099 NDCG: 0.0072 
+[Test]: ILD: 0.9749 Item Coverage: 0.6332 Category Coverage: 0.8668 F1: 0.0196
+------------------------------------------------------
+No improvement in Recall for 10 consecutive epochs. Stopping early.
+======================================================
+End. Best Epoch with highest F1 on valid set is 24
+[Valid]: Recall: 0.0394 NDCG: 0.0183
+[Valid]: ILD: 0.9754 Item Coverage: 0.6010 Category Coverage: 0.8641 F1: 0.0754
+[Test]: Recall: 0.0172 NDCG: 0.0079 
+[Test]: ILD: 0.9754 Item Coverage: 0.6027 Category Coverage: 0.8641 F1: 0.0337
+Training completed.

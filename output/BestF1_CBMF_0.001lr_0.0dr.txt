@@ -312,7 +312,7 @@ No improvement in validation F1 score for 10 consecutive epochs. Stopping early.
 ======================================================
 End. Best Epoch with highest F1 score on valid set is 10
 [Valid]: Recall: 0.0542 NDCG: 0.0263
-[Valid]: ILD: 0.9582 Item Coverage: 0.6774 Category Coverage: 0.9103 F1: 0.0709
+[Valid]: ILD: 0.9575 Item Coverage: 0.5950 Category Coverage: 0.8614 F1: 0.1020
 [Test]: Recall: 0.0296 NDCG: 0.012 
-[Test]: ILD: 0.9583 Item Coverage: 0.6780 Category Coverage: 0.9103 F1: 0.0618
+[Test]: ILD: 0.9575 Item Coverage: 0.5974 Category Coverage: 0.8614 F1: 0.0572
 Training completed.
