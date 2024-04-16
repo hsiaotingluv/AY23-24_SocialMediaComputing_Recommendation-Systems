@@ -2,11 +2,15 @@ import numpy as np
 import torch.utils.data as data
 
 
-def load_all(train_path, valid_path, test_path):
+def load_all(train_path, valid_path, test_path, category_feature_path, visual_feature_path):
 	""" We load all the three file here to save time in each epoch. """
 	train_dict = np.load(train_path, allow_pickle=True).item()
 	valid_dict = np.load(valid_path, allow_pickle=True).item()
 	test_dict = np.load(test_path, allow_pickle=True).item()
+
+	# Load visual and category features
+	visual_features = np.load(visual_feature_path, allow_pickle=True).item()
+	category_features = np.load(category_feature_path, allow_pickle=True).item()
 
 	user_num, item_num = 0, 0
 	user_num = max(user_num, max(train_dict.keys()))
@@ -26,7 +30,8 @@ def load_all(train_path, valid_path, test_path):
 		item_num = max(item_num, max(items))
 		for item in items:
 			test_gt.append([int(user), int(item)])
-	return user_num+1, item_num+1, train_dict, valid_dict, test_dict, train_data, valid_gt, test_gt
+
+	return user_num+1, item_num+1, train_dict, valid_dict, test_dict, train_data, valid_gt, test_gt, visual_features, category_features
 
 class MFData(data.Dataset):
 	def __init__(self, features, num_item, train_dict=None, is_training=None):
